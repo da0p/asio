@@ -1,2 +1,3 @@
 add_subdirectory(synchronous_timer)
 add_subdirectory(asynchronous_timer)
+add_subdirectory(limited_counter)
