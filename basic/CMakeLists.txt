@@ -1,8 +1,2 @@
-add_executable(synchronous_timer
-    synchronous_timer.cpp
-)
-
-target_link_libraries(synchronous_timer
-  PUBLIC
-    boost::boost
-)
+add_subdirectory(synchronous_timer)
+add_subdirectory(asynchronous_timer)
